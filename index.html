@@ -7,22 +7,56 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <section>`
+    <div class="recuadro">
+  <div class="codigo">
+    <img src="images/image-qr-code.png">
   </div>
+  <div class ="texto">
+  <p><b>Improve your front-end skills by building projects</b></p>
+
+  <a>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</a>
+ 
+</div>
+</div>
+</section>
+  <style>
+     body {
+    background-color: hsl(212, 45%, 89%); /* Color de fondo Slate 300 */
+    margin: 100px; /* Quitar márgenes por defecto */
+    font-family: "Outfit", sans-serif; /* Asegurar la fuente */
+  }
+     .recuadro {
+    background-color: white; /* Fondo del recuadro */
+    border-radius: 20px; /* Bordes curvos */
+    padding: 15px; /* Espaciado interno */
+    max-width: 300px; /* Ancho máximo del recuadro */
+    margin: 0 auto; /* Centrar el recuadro */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle un efecto elevado */
+    text-align: center; /* Centrar contenido */
+  }
+    .codigo {
+      text-align: center;
+    }
+    .codigo img{
+      border-radius: 10px;
+      height: 300px;
+      width: auto; 
+    }
+    .texto {
+      text-align:center;
+      font-size: 22px;
+     
+    }
+    .texto a {
+      text-align: center;
+      font-size: 15px;
+      padding: 16px;
+      color: hsl(0, 2%, 39%); /* Gris clarito */
+    }
+   
+  </style>
 </body>
 </html>
